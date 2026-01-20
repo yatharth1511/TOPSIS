@@ -50,6 +50,34 @@ The `notebook/TOPSIS_Assignment.ipynb` notebook:
 
 ---
 
+---
+
+## Images
+
+### Normalized Decision Matrix
+![Normalized Matrix](images/normalized_matrix.png)
+
+### Weighted Normalized Matrix
+![Weighted Matrix](images/weighted_matrix.png)
+
+### Ideal Best and Ideal Worst Values
+![Ideal Values](images/ideal_values.png)
+
+### Separation Measures (S⁺ and S⁻)
+![Separation Measures](images/separation_measures.png)
+
+### Performance Scores and Ranking
+![TOPSIS Scores](images/topsis_scores.png)
+
+### Result Visualization Graph
+![Result Graph](images/result_graph.png)
+
+### Website UI
+![Website UI](images/website_ui.png)
+
+### Website Result
+![Website Result](images/website_result.png)
+
 4. Web Service
 
 # Frontend
