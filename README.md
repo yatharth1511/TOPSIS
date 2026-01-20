@@ -12,7 +12,7 @@ The project includes:
 
 ---
 
-## 1. Methodology
+## Methodology
 
 TOPSIS ranks alternatives based on their distance from:
 - Ideal best solution
@@ -27,7 +27,7 @@ Steps:
 6. Rank alternatives
 ---
 
-## 2. R Implementation
+## R Implementation
 
 The `R/topsis_full.R` file displays:
 - Normalized matrix
@@ -40,7 +40,7 @@ The `R/topsis_full.R` file displays:
 
 ---
 
-## 3. Colab Notebook
+## Colab Notebook
 
 The `notebook/TOPSIS_Assignment.ipynb` notebook:
 - Explains methodology step by step
@@ -75,7 +75,7 @@ The `notebook/TOPSIS_Assignment.ipynb` notebook:
 ### Website Result
 ![Website Result](images/website_result.png)
 
-## 4. Web Service
+## Web Service
 
 ### Frontend
 - Streamlit (centrally aligned UI)
@@ -91,7 +91,20 @@ The `notebook/TOPSIS_Assignment.ipynb` notebook:
 
 ---
 
-## 5. How to Run Web App
+## Publishing to PyPI
 
+### Build
 ```bash
-pip install -r web/requirements.txt
+pip -m build
+```
+### Upload
+```bash
+python -m twine upload dist/*
+```
+### Test Installation
+```bash
+pip install Topsis-Yatharth-102303136
+topsis-cli --help
+```
+## Author
+### Yatharth Sharma, Roll No. 102303136 ###
