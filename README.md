@@ -12,7 +12,7 @@ The project includes:
 
 ---
 
-## 1. Methodology (TOPSIS)
+## 1. Methodology
 
 TOPSIS ranks alternatives based on their distance from:
 - Ideal best solution
@@ -26,6 +26,20 @@ Steps:
 5. Calculate performance score
 6. Rank alternatives
 
+### Normalization
+- **Formula:**
+  $$ r
+i
+j
+=
+x
+i
+j
+∑
+x
+i
+j
+2 $$
 ---
 
 ## 2. R Implementation
