@@ -4,8 +4,8 @@ This repository contains a complete implementation of the TOPSIS
 (Technique for Order Preference by Similarity to Ideal Solution) method.
 
 The project includes:
-- Full TOPSIS implementation in "R"
-- A :Colab notebook** explaining methodology and results
+- Full TOPSIS implementation in **R**
+- A **Colab notebook** explaining methodology and results
 - A **FastAPI backend**
 - A **Streamlit frontend**
 - Email delivery of results
